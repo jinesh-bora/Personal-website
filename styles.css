@@ -62,6 +62,90 @@ html,body{
 .resume:hover,
 .contact:hover,
 .project:hover{
-    color: rgb(223, 177, 59);
+    color: #f3e5b4;
 
+}
+/* navbar ends here */
+.main-section{
+    height: 110vh;
+    width: 100%;
+    background-color:rgb(242,243,242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-inside-conrainer{
+    height: 60%;
+    width: 60%;
+    display: flex;
+}
+.inside-part-one{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 100%;
+    width: 110%;
+    border-radius: 100%;
+    margin-right: 90px;
+}
+.inside-part-two{
+    height: 100%;
+    width: 50%;
+}
+.part-two-upper{
+    height: 60%;
+    width: 100%;
+    padding: 1.2rem;
+}
+.part-two-upper > h1{
+    font-weight: bold;
+    font-size: 6.5rem;
+    font-family: 'Inter', sans-serif;
+}
+.part-two-upper > h3{
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+    margin-top:1.2rem; 
+}
+.part-two-upper p {
+    font-size: 1.2;
+    font-family: 'Inter', sans-serif;
+    margin-top: 0.9rem;
+}
+.part-two-lower{
+    height: 40%;
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+}
+.circles{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    transition: background-color 0.3s ease;
+}
+#resume:hover,#project:hover,#contact:hover{
+    background-color: rgb(242,243,242);
+}
+#resume{
+    background-color: #eea302;
+}
+#project{
+    background-color: #ff3b25;
+}
+#contact{
+    background-color: #80d9db;
 }
